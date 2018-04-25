@@ -1,7 +1,14 @@
 buildscripts:
-  - autobuild/gig-flist-build.sh
+  - autobuild/gig-flist-build-1.sh
+  - autobuild/gig-flist-build-2.sh
 
-autobuild/gig-flist-build.sh:
+autobuild/gig-flist-build-1.sh:
   baseimage: ubuntu:16.04
   archives: /tmp/archives
   artifact: result.tar.gz
+
+autobuild/gig-flist-build-2.sh:
+  baseimage: ubuntu:16.04
+  archives: /tmp/archives
+  artifact: result.tar.gz
+  tag: special-tag
