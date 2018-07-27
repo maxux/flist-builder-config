@@ -12,4 +12,4 @@ jumpscale.sh:
   - jumpscale/prefab9
   - zero-os/0-robot
   - rivine/recordchain
-  - maxux/external-hook
+#  - maxux/external-hook
