@@ -1,6 +1,6 @@
 buildscripts:
   - autobuild/gig-flist-build-1.sh
-  - autobuild/gig-flist-build-2.sh
+# - autobuild/gig-flist-build-2.sh
 
 autobuild/gig-flist-build-1.sh:
   baseimage: ubuntu:16.04
