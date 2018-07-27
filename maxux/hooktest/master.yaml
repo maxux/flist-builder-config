@@ -3,7 +3,7 @@ artifacts:
   - default.tar.gz
   - release.tar.gz
 dependencies:
-  - maxux/hooktest:
-      branch: master
-  - maxux/external-hook:
-      branch: master
+  - repository: maxux/hooktest
+    branch: master
+  - repository: maxux/external-hook
+    branch: master
